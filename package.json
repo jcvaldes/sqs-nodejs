@@ -1,0 +1,22 @@
+{
+  "name": "sqs-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "listQueues": "node listQueues.js",
+    "getAttributes": "node getAttributes.js",
+    "sendMessage": "node sendMessage",
+    "receiveMessage": "node receiveMessage",
+    "deleteMessage": "node deleteMessage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.171.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.2"
+  }
+}
